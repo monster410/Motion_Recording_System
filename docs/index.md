@@ -14,7 +14,7 @@
 
 Lorem ipsum dolor sit amet
 
-![type:video](https://www.youtube.com/embed/NIDcZJTJ3N0)
+![type:video](https://www.youtube.com/embed/NIDcZJTJ3N0?enablejsapi=1&origin=http://example.com)
 
 
 ## Gentlemonster
