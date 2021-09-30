@@ -1,7 +1,3 @@
-# 개요
-## 
-##
-##
-##
-##
-##
+# 홈
+## 1. INTRODUCTION
+## 2. SYSTEM CONFIGURATION
