@@ -10,6 +10,12 @@
 * `mkdocs -h` - Print help message and exit.
 * `hi -h` - 안녕하세요.
 * `hi -h` - 호호호. 
+# Video example
+
+Lorem ipsum dolor sit amet
+
+![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
+
 
 ## Gentlemonster
 안녕하세요

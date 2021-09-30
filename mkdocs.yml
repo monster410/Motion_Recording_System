@@ -1,3 +1,5 @@
 site_name: GM lab
 theme:
     name: readthedocs
+plugins:
+    - mkdocs-video
