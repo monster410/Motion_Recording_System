@@ -3,4 +3,4 @@ theme:
     name: readthedocs
 plugins:
   - mkdocs-video:
-      mark: "custom-marker"plugins:
+      mark: "custom-marker"
