@@ -2,4 +2,5 @@ site_name: GM lab
 theme:
     name: readthedocs
 plugins:
-    - mkdocs-video
+  - mkdocs-video:
+      mark: "custom-marker"plugins:
