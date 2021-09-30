@@ -1,6 +1,7 @@
-site_name: GM lab
+site_name: Motion Recording System
 theme:
     name: readthedocs
+    logo: "logo/logo.png"
 plugins:
   - mkdocs-video:
       mark: "custom-marker"
