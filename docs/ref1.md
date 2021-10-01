@@ -60,13 +60,13 @@ a
 
 a
 
-<video id="player" width="360" height="640" src="/test2.mp4" controls preload="false"></video>
+<video id="player1" width="360" height="640" src="test2.mp4" controls preload="false"></video>
 
 
 abc
 
 
-<video id="player" width="640" height="360" src="/test4.mp4" controls preload="false"></video>
+<video id="player2" width="640" height="360" src="test4.mp4" controls preload="false"></video>
 a
 
 a
