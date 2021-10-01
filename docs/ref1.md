@@ -1,6 +1,6 @@
 # Welcome
 
-
+ 
 
 ## Commands
 
@@ -60,13 +60,15 @@ a
 
 a
 
-<video id="player1" width="360" height="640" src="test2.mp4" controls preload="false"></video>
+<video id="player1" width="360" height="640" src="../test2.mp4" controls preload="false"></video>
 
 
 abc
 
 
-<video id="player2" width="640" height="360" src="test4.mp4" controls preload="false"></video>
+<video id="player2" width="640" height="360" src="../test4.mp4" controls preload="false"></video>
+
+
 a
 
 a
@@ -80,7 +82,7 @@ a
 abc
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-    <video src="test3.mp4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    <video src="/test3.mp4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
 ## 사이트 소개
