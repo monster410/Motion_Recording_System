@@ -1,8 +1,8 @@
 # Markdown TEST 2
 [홈](ref1.md).
 
-구글  [google.com](http://www.google.com)
-
+구글  [google.com](http://www.google.com)<p>
+카카오톡 Q&A 오픈채팅방 [open.kakao.com/o/gKT7jdId](https://open.kakao.com/o/gKT7jdId)
 
 
 ![Alt text](test1.PNG)
