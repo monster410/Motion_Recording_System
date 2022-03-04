@@ -28,9 +28,9 @@ Table 1 모터 분류 및 특성
 
 ## 1.3 시스템 영상
 
-<video id="player1" width="360" height="640" src="01/1_3.mp4" controls preload="false"></video>
+<video id="1_3" width="400" height="600" src="../01/1_3.mp4" controls preload="false"></video>
 
-## 1.4 시스템 구성 분성
+## 1.4 시스템 구성 분류
 
 ### 1.4.1 구성 장치
 
