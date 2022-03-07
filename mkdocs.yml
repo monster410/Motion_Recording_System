@@ -1,7 +1,7 @@
 site_name: Motion Recording System
 theme:
     name: readthedocs
-    logo: "logo/logo.png"
+    logo: "/logo/logo.png"
 plugins:
   - mkdocs-video:
       mark: "custom-marker"
