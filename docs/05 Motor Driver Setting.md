@@ -171,6 +171,58 @@ PC프로그램 실행
 - 위치 제어 구동 테스트
 ![구동테스트1](05/5_2_3_6_1.png)
 
+####  5.2.3.7 Parameter Export/Import
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://player.vimeo.com/video/296015631" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+<p></p>
+
+
+- Parameter Export
+
+![파라미터1](05/5_2_3_7_1.png)
+
+- Parameter Import
+
+![파라미터2](05/5_2_3_7_2.png)
+
+
+
+## RC Servo Motor Setting
+
+### 5.3.1 Range Set
+    구동 범위 변경 시 사용
+
+- RC 모터 최초 사용시 모터의 LEFT/RIGHT 구동범위를 최소범위로 변경해서 사용 : 모터 구동범위 0~4095
+
+![RC모터셋팅1](05/5_3_1.gif)
+
+### 5.3.2 작동 TEST
+    모터 수동 조작 시 사용
+
+![RC모터셋팅2](05/5_3_2.gif)
+
+### 5.3.3 Motor Direction
+    모터 회전 방향 변경 시 사용
+
+![RC모터셋팅3](05/5_3_3.gif)
+
+### 5.3.4 공장초기화
+    모터의 공장 초기화 설정으로 변경하고자 할 때 사용
+    
+![RC모터셋팅4](05/5_3_4.gif)
+
+
+
+
+
+
+
+
+
+
 
 --------------------------------------------------------
 ## 1. Panasonic AC Servo
