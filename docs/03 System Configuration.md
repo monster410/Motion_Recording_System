@@ -1,12 +1,16 @@
 # System Configuration
-## 1. 구성도
+## 3.1 BASE BOARD
+    (BASE BAORD를 기준으로 아이디 부여되는 방식 설명)
 
-구성도 삽입
+## 3.2 AC Servo Motor
+MAI 1개당 1개의 모터를 사용하다.
+모터 수량에 맞춰서 모듈을 구성되며, 모터 1개당 축 번호가 부여됩니다(위치가 축번호가 되는점)
 
-## 2. Development Purpose & Background
-인트로에 작성
 
-## 3. System Configuation
+## 3.3 BLDC Motor
+
+MBI 1개당 1개의 모터를 사용한다.
+모터 수량에 맞춰서 모듈을 구성되며, 모터 1개당 축 번호가 부여된다.
 
 각 디바이스 사진 설명
 ## 4. 특징
