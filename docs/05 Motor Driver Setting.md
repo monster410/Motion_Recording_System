@@ -7,7 +7,7 @@ PANATERM.exe (PC Program 사용)
 - 프로그램 설치([PANATERM 파나소닉 셋업 지원 소프트웨어 다운로드](https://www3.panasonic.biz/ac/kr/dl/software/index.jsp?series_cd=3514))
 
 
-![PANATERM 다운로드](docs/05/5_1.png)
+![PANATERM 다운로드](05/5_1.png)
 
 PC프로그램 실행
 : Driver에 USB micro 케이블 연결→②Driver 전원 on후 PC프로그램 실행 
@@ -64,9 +64,112 @@ PC프로그램 실행
     <iframe src="https://www.youtube.com/embed/playlist?list=PLmklAQtFT_ZJzWOa9O6507qA0NiSU8hzN" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 
+### 5.2.1 EPOS Studio 다운로드 및 설치
+- 다운로드 및 설치: 위 링크 제품의 다운로드 [Setup EPOS Studio](https://www.maxongroup.co.kr/maxon/view/category/motor?etcc_cu=onsite&etcc_med_onsite=Product&etcc_cmp_onsite=ECX+SPEED+%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8&etcc_plc=Overview-Page-brushless-DC-Motors&etcc_var=%5bkr%5d%23ko%23_d_&target=filter&filterCategory=ECX)
+
+![다운로드](05/5_2_1.png)
+
+### 5.2.2 H/W 연결
+    연결사진첨부
+
+### 5.2.3 EPOS Studio 설정
+#### 5.2.3.1 프로젝트 생성
+    동영상 첨부
+#### 5.2.3.2 Firmware update
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://player.vimeo.com/video/203409453" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+#### 5.2.3.3 드라이버 설정
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://player.vimeo.com/video/228770799" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+
+- Wizards / Startup 선택
+
+![드라이버설정1](05/5_2_3_3_1.png)
+
+- Driver System / Motor
+: 적용 모터에 맞게 설정(빨간 박스 항목) 후 Next
+![드라이버설정2](05/5_2_3_3_2.png)
+
+- Driver System / Sensor 
+: Hall sensor 만 활성화(빨간 박스 항목) 후 Next
+![드라이버설정3](05/5_2_3_3_3.png)
+
+- Driver System / Sensor 
+: Hall Sensor 만 활성화(빨간 박스 항목) 후 Next
+![드라이버설정4](05/5_2_3_3_4.png)
+
+- Controller / Commutation, Regulation, Units 
+: 설정 확인 후 Next
+![드라이버설정5](05/5_2_3_3_5.png)
+![드라이버설정6](05/5_2_3_3_6.png)
+![드라이버설정7](05/5_2_3_3_7.png)
+
+- Controller / Limits 
+: 적용 모터에 맞게 설정(빨간 박스 항목) 후 Next
+![드라이버설정8](05/5_2_3_3_8.png)
+
+- Controller / Device Control 
+: 적용 모터에 맞게 설정(빨간 박스 항목) 후 Next
+![드라이버설정9](05/5_2_3_3_9.png)
+
+- Controller / Touch Prove : 설정 없이 패스 
+
+- Inputs / Outputs 
+: 모든 input / output  None 으로 설정
+: 기능은 추가 테스트 후 적용 예정
+![드라이버설정10](05/5_2_3_3_10.png)
+
+- 모든 설정 완료 후 Finish 선택
 
 
 
+#### 5.2.3.4 Driver Auto Tune
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+    <iframe src="https://player.vimeo.com/video/233980987" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+</div>
+
+- Wizard / Regulation Tuning 선택
+
+![AutoTune1](05/5_2_3_4_1.png)
+
+- Electrical Loop / Current 
+: Step amplitude 값 설정(적절하고 실제 모션범위와 비슷한 값) 후 Auto Tune 선택  
+
+- Main Loop / Velocity
+: Step amplitude 값 설정(적절하고 실제 모션범위와 비슷한 값) 후 Auto Tune 선택
+
+- Main Loop / Position
+: Step amplitude 값 설정(적절하고 실제 모션범위와 비슷한 값) 후 Auto Tune 선택
+
+- Error 
+: 최대 전류값을 모터 스펙과 다르게 높게 잡았을 경우 에러 발생(-> 최대 전류값 조정)
+
+#### 5.2.3.5 CAN 설정
+
+- Tools / Object Dictionary 선택
+- 0x2001 CAN bit rate : 1000 kbit/s 로 설정
+
+![CAN설정](05/5_2_3_5.png)
+
+
+#### 5.2.3.6 테스트 및 추가 튜닝
+- Wizard / Regulation Tuning 선택
+- Test Signal 설정 후 Apply Test Signal 선택 
+- 토크 제어 구동 테스트 
+![구동테스트1](05/5_2_3_6_1.png)
+
+- 속도 제어 구동 테스트
+![구동테스트1](05/5_2_3_6_1.png)
+
+- 위치 제어 구동 테스트
+![구동테스트1](05/5_2_3_6_1.png)
 
 
 --------------------------------------------------------
