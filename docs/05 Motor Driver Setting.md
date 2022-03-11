@@ -190,7 +190,7 @@ PC프로그램 실행
 
 
 
-## RC Servo Motor Setting
+## 5.3 RC Servo Motor Setting
 
 ### 5.3.1 Range Set
     구동 범위 변경 시 사용
@@ -211,7 +211,7 @@ PC프로그램 실행
 
 ### 5.3.4 공장초기화
     모터의 공장 초기화 설정으로 변경하고자 할 때 사용
-    
+
 ![RC모터셋팅4](05/5_3_4.gif)
 
 
