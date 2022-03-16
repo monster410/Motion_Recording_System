@@ -6,3 +6,6 @@
     monster410@gentlemonster.com
 ## Phone
     010 5012 1776
+## Q&A
+    Q&A 카카오톡오픈채팅방 [open.kakao.com/o/gKT7jdId](https://open.kakao.com/o/gKT7jdId)
+
