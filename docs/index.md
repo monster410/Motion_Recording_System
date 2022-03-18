@@ -3,10 +3,13 @@
 
 * 키네틱 오브제의 움직임의 표현에 적합한 모션 제어시스템
     
-    키네틱 오브제(움직임이 있는 오브제)
+    키네틱 오브제(움직임이 있는 오브제) 
 
 
 
+
+
+<br>
 
 * 목차
 
@@ -21,7 +24,6 @@
     [Installation](10Installation.md)<br>
     [Sensor Install](11SensorInstall.md)<br>
     [Contact](12Contact.md)<br>
-
 
 
 
