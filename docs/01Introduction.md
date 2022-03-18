@@ -1,17 +1,17 @@
 # Introduction
 ## 1.1 시스템 설명
 모션 오브제 제작시 모션 제작의 어려움과 함께 장기간 제작기간이 소요되므로, 모션 오브제 플랫폼이 필요하다. 
-Motion Control System(이하 MCS)는 오브제 모션을 녹화하여 플레이 하는 시스템으로 오브제 구동을 위한 기능요소들을 모듈화 하여 각 기능 요구에 따라 필요한 모듈들을 조립하여 쓰는 형태로 이루어져 있다. 큰 특징은 다음과 같다. 
+Motion Recording System(이하 MRS)는 오브제 모션을 녹화하여 플레이 하는 시스템으로 오브제 구동을 위한 기능요소들을 모듈화 하여 각 기능 요구에 따라 필요한 모듈들을 조립하여 쓰는 형태로 이루어져 있다. 큰 특징은 다음과 같다. 
 
 -	오브제 요구에 따라 각 모듈을 조립하여 사용
 -	모션데이터 취득 장치(ex: MIDI)를 활용한 다양한 모션 연출 가능
 -	다수, 다양한 모터 동시 사용가능
--	모터는 크게 AC, BLDC, Dynamixel, RC 총 4종류로 분류
+-	모터는 크게 AC Servo Motor, BLDC Motor, Dynamixel, RC Servo Motor 총 4종류로 분류
 
 
 Table 1 모터 분류 및 특성
 
-|           | AC Servo Motor    | BLDC Motor           | Dynmixel Motor | RC servo Motor|
+|           | AC Servo Motor    | BLDC Motor           | Dynmixel Motor | RC Servo Motor|
 |:---------:|:-----------------:|:--------------------:|:--------------:|:-------------:|
 |소비전력|100W 이상|10W~500W|낮음|낮음|
 |전원|AC220|DC12V~72V|DC12V|DC5V~7.5V|
